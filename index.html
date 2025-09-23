@@ -22,16 +22,16 @@
     </header>
    
     <main>
-        <div class="siderbar-left">
-            <nav>
-                <a href="">
-                    <img src="" alt=""> Editor de Código
-                </a>
-                <a href="">
-                     <img src="" alt=""> Comunidade
-                </a>
-            </nav>
-        </div>
+        <nav class="siderbar-left">
+            <span class="siderbar-title">MENU</span>
+            <a href="">
+                <img src="./asset/img/icon/icon_01.svg" alt=""> Editor de Código
+            </a>
+            <a href="">
+                <img src="./asset/img/icon/icon_users.svg" alt=""> Comunidade
+            </a>
+        </nav>
+       
         <section>
             <div class="code-editor">
                 <textarea name="code-editor" id=""></textarea>
@@ -40,16 +40,16 @@
         </section>
         <div class="siderbar-right">
             <div class="project">
-                <h1>Seus Projetos</h1>
-                <input type="text" placeholder="Nome do seu projeto">
-                <textarea name="description_project" placeholder="Descrição do seu projeto" id=""></textarea>
+                <span class="siderbar-title">Seus Projetos</span>
+                <input class="input-text"type="text" placeholder="Nome do seu projeto">
+                <textarea class="input-t_area" name="description_project" placeholder="Descrição do seu projeto" id=""></textarea>
             </div>
             <div class="settings">
-                <h1>Personalização</h1>
-                <input type="text" placeholder="Nome do seu projeto">
-                <input type="color" name="color" id="">
+                <span class="siderbar-title">Personalização</span>
+                <input class="input-text" placeholder="Nome do seu projeto">
+                <input  class="input-color" type="color"  name="color" value="#6BD1FF" id="">
             </div>
-            <button>Salvar Projeto</button>
+            <button class="btn-save-project"">Salvar Projeto</button>
     </main>
 
     <footer></footer>    
